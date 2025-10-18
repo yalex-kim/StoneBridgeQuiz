@@ -2,6 +2,7 @@ export interface Quiz {
   category: string;
   question: string;
   answer: 'O' | 'X';
+  difficulty: number;
 }
 
 export interface GameState {

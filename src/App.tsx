@@ -28,12 +28,17 @@ function App() {
     const savedHammers = localStorage.getItem('totalHammers');
     const totalHammers = savedHammers ? parseInt(savedHammers) : 0;
 
-    const shuffled = [...quizzesData].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, TOTAL_STAGES);
+    // 난이도별로 퀴즈 선택 (20문제씩)
+    const selected: Quiz[] = [];
+    for (let difficulty = 1; difficulty <= 5; difficulty++) {
+      const quizzesOfDifficulty = (quizzesData as Quiz[]).filter(q => q.difficulty === difficulty);
+      const shuffled = [...quizzesOfDifficulty].sort(() => Math.random() - 0.5);
+      selected.push(...shuffled.slice(0, 20));
+    }
 
     setGameState(prev => ({
       ...prev,
-      selectedQuizzes: selected as Quiz[],
+      selectedQuizzes: selected,
       totalHammers,
       hammers: totalHammers,
     }));
@@ -143,14 +148,19 @@ function App() {
   };
 
   const handleRestart = () => {
-    const shuffled = [...quizzesData].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, TOTAL_STAGES);
+    // 난이도별로 퀴즈 선택 (20문제씩)
+    const selected: Quiz[] = [];
+    for (let difficulty = 1; difficulty <= 5; difficulty++) {
+      const quizzesOfDifficulty = (quizzesData as Quiz[]).filter(q => q.difficulty === difficulty);
+      const shuffled = [...quizzesOfDifficulty].sort(() => Math.random() - 0.5);
+      selected.push(...shuffled.slice(0, 20));
+    }
 
     setGameState(prev => ({
       ...prev,
       currentStage: 1,
       hearts: 1,
-      selectedQuizzes: selected as Quiz[],
+      selectedQuizzes: selected,
       gameStatus: 'playing',
       showQuiz: false,
       showSpecialStage: false,
