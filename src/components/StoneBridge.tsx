@@ -21,8 +21,8 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
 
   const renderStones = () => {
     const stones = [];
-    const visibleRange = 20;
-    const startStage = Math.max(1, currentStage - 5);
+    const visibleRange = 15;
+    const startStage = Math.max(1, currentStage - 2);
     const endStage = Math.min(totalStages, currentStage + visibleRange);
 
     for (let i = startStage; i <= endStage; i++) {
@@ -31,9 +31,10 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
       const isCurrent = i === currentStage;
       const isPassed = i < currentStage;
 
-      const scale = Math.max(0.3, 1 - distance * 0.05);
-      const translateY = distance * 80;
-      const opacity = distance > 15 ? 0.3 : 1;
+      // 원근감: 멀리 있을수록 작게, 가까울수록 크게
+      const scale = Math.max(0.2, 1.3 - distance * 0.08);
+      const translateY = distance * 60;
+      const opacity = distance > 12 ? Math.max(0.2, 1 - (distance - 12) * 0.15) : 1;
 
       stones.push(
         <div
@@ -44,6 +45,7 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
             transform: `translateY(${translateY}px) scale(${scale})`,
             opacity,
             cursor: isCurrent ? 'pointer' : 'default',
+            zIndex: 100 - distance,
           }}
           onClick={() => isCurrent && onStoneClick(i)}
         >

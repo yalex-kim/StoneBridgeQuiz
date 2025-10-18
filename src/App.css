@@ -90,48 +90,90 @@ body {
 .stone {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
-  background: linear-gradient(145deg, #d4a373, #c08552);
+  border-radius: 45% 55% 50% 50% / 50% 45% 55% 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #b0b0b0, transparent 50%),
+    radial-gradient(circle at 70% 60%, #7a7a7a, transparent 40%),
+    linear-gradient(145deg, #8a8a8a, #5a5a5a);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
   font-weight: bold;
   color: white;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.4),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
   position: relative;
-  border: 4px solid #8b6f47;
+  border: none;
+}
+
+.stone::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 45% 55% 50% 50% / 50% 45% 55% 50%;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.2), transparent 30%),
+    radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.2), transparent 30%);
+  pointer-events: none;
 }
 
 .stone.current {
-  background: linear-gradient(145deg, #ffd700, #ffb700);
-  border-color: #ff6b35;
+  background:
+    radial-gradient(circle at 30% 30%, #ffeb99, transparent 50%),
+    radial-gradient(circle at 70% 60%, #ffb84d, transparent 40%),
+    linear-gradient(145deg, #ffd966, #ffaa00);
+  border: 3px solid #ff6b35;
   animation: pulse 1.5s infinite;
   cursor: pointer;
-  box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+  box-shadow:
+    0 0 30px rgba(255, 215, 0, 0.8),
+    0 8px 25px rgba(255, 170, 0, 0.5),
+    inset 2px 2px 6px rgba(255, 255, 255, 0.4),
+    inset -2px -2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .stone.current:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px rgba(255, 215, 0, 1);
+  transform: scale(1.08);
+  box-shadow:
+    0 0 40px rgba(255, 215, 0, 1),
+    0 10px 30px rgba(255, 170, 0, 0.6);
 }
 
 .stone.passed {
-  background: linear-gradient(145deg, #95a5a6, #7f8c8d);
-  opacity: 0.6;
+  background:
+    radial-gradient(circle at 30% 30%, #6a6a6a, transparent 50%),
+    radial-gradient(circle at 70% 60%, #4a4a4a, transparent 40%),
+    linear-gradient(145deg, #5a5a5a, #3a3a3a);
+  opacity: 0.5;
 }
 
 .stone.special {
-  background: linear-gradient(145deg, #2c3e50, #1a252f);
+  background:
+    radial-gradient(circle at 30% 30%, #4a4a4a, transparent 50%),
+    radial-gradient(circle at 70% 60%, #2a2a2a, transparent 40%),
+    linear-gradient(145deg, #3a3a3a, #1a1a1a);
   width: 140px;
   height: 140px;
-  border-color: #c0392b;
+  border: 3px solid #c0392b;
 }
 
 .stone.special.current {
-  background: linear-gradient(145deg, #34495e, #2c3e50);
-  box-shadow: 0 0 40px rgba(192, 57, 43, 0.8);
+  background:
+    radial-gradient(circle at 30% 30%, #555, transparent 50%),
+    radial-gradient(circle at 70% 60%, #333, transparent 40%),
+    linear-gradient(145deg, #444, #222);
+  box-shadow:
+    0 0 40px rgba(192, 57, 43, 0.8),
+    0 8px 25px rgba(192, 57, 43, 0.5),
+    inset 2px 2px 6px rgba(255, 255, 255, 0.2),
+    inset -2px -2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .hanok {
