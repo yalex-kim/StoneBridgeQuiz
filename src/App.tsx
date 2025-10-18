@@ -3,9 +3,10 @@ import { GameState, Quiz, RewardType } from './types';
 import quizzesData from './data/quizzes.json';
 import StoneBridge from './components/StoneBridge';
 import QuizModal from './components/QuizModal';
+import HouseAnimation from './components/HouseAnimation';
 import './App.css';
 
-const TOTAL_STAGES = 100;
+const TOTAL_STAGES = 1; // 테스트용: 1번 문제만 풀어도 승리
 const SPECIAL_STAGES = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 const REQUIRED_HAMMERS = 10;
 
@@ -22,12 +23,14 @@ function App() {
     showHeartConfirm: false,
     showVictoryScreen: false,
     showWrongAnswer: false,
+    showHouseAnimation: false,
     totalHammers: 0,
   });
 
   useEffect(() => {
-    const savedHammers = localStorage.getItem('totalHammers');
-    const totalHammers = savedHammers ? parseInt(savedHammers) : 0;
+    // 테스트용: 망치 10개 자동 지급
+    const totalHammers = 10;
+    localStorage.setItem('totalHammers', totalHammers.toString());
 
     // 난이도별로 퀴즈 선택 (20문제씩)
     const selected: Quiz[] = [];
@@ -138,7 +141,7 @@ function App() {
         setGameState(prev => ({
           ...prev,
           gameStatus: 'victory',
-          showVictoryScreen: true,
+          showHouseAnimation: true,
         }));
       } else {
         setGameState(prev => ({
@@ -154,6 +157,14 @@ function App() {
         showSpecialStage: false,
       }));
     }
+  };
+
+  const handleAnimationComplete = () => {
+    setGameState(prev => ({
+      ...prev,
+      showHouseAnimation: false,
+      showVictoryScreen: true,
+    }));
   };
 
   const handleRestart = () => {
@@ -269,6 +280,14 @@ function App() {
             <h2>게임 오버</h2>
             <p>현재 망치: {gameState.totalHammers}/{REQUIRED_HAMMERS}</p>
             <button onClick={handleRestart} className="btn-restart">재도전</button>
+          </div>
+        </div>
+      )}
+
+      {gameState.showHouseAnimation && (
+        <div className="modal-overlay">
+          <div className="modal animation-modal">
+            <HouseAnimation onComplete={handleAnimationComplete} />
           </div>
         </div>
       )}

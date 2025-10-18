@@ -18,6 +18,7 @@ export interface GameState {
   showHeartConfirm: boolean;
   showVictoryScreen: boolean;
   showWrongAnswer: boolean;
+  showHouseAnimation: boolean;
   totalHammers: number;
 }
 

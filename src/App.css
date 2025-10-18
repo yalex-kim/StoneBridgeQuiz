@@ -459,6 +459,14 @@ body {
   box-shadow: 0 6px 15px rgba(52, 152, 219, 0.4);
 }
 
+/* Animation Modal */
+.animation-modal {
+  max-width: 600px;
+  padding: 20px;
+  background: transparent;
+  box-shadow: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .stone {

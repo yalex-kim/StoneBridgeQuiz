@@ -1,0 +1,116 @@
+.house-animation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.animation-title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: pulse-text 2s infinite;
+}
+
+@keyframes pulse-text {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.house-svg {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.matchstick {
+  stroke: #8b4513;
+  stroke-width: 6;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.matchstick-head {
+  fill: #ff6b6b;
+  stroke: #c92a2a;
+  stroke-width: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  animation: drawStick 0.5s ease-out forwards;
+}
+
+@keyframes drawStick {
+  from {
+    opacity: 0;
+    transform: scale(0.5) rotate(-20deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.hammer-counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hammer-icon {
+  font-size: 32px;
+  animation: swing 1s infinite;
+}
+
+@keyframes swing {
+  0%, 100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+.hammer-count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+  .animation-title {
+    font-size: 20px;
+  }
+
+  .house-svg {
+    width: 250px;
+    height: 270px;
+  }
+
+  .hammer-icon {
+    font-size: 28px;
+  }
+
+  .hammer-count {
+    font-size: 20px;
+  }
+}
