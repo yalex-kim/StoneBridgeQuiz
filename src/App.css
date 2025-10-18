@@ -69,11 +69,11 @@ body {
   padding-top: 70px;
   overflow: hidden;
   perspective: 400px;
-  perspective-origin: 50% 30%;
+  perspective-origin: 50% 33.33%;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
-  padding-bottom: 50px;
+  transform-style: preserve-3d;
 }
 
 .river-background {
@@ -82,7 +82,8 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: calc(66.67vh - 70px - 60px);
   transform-style: preserve-3d;
 }
 
