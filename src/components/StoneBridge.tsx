@@ -31,9 +31,11 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
       const isCurrent = i === currentStage;
       const isPassed = i < currentStage;
 
-      // 원근감: 멀리 있을수록 작게, 가까울수록 크게
-      const scale = Math.max(0.2, 1.3 - distance * 0.08);
-      const translateY = distance * 60;
+      // 원근감: 전면에서 다가오는 효과 (translateZ 사용)
+      // 멀리 있을수록 Z축 깊이가 크고, 가까울수록 앞으로 나옴
+      const translateZ = -distance * 200; // 뒤로 갈수록 음수값이 커짐
+      const translateY = distance * 30; // 약간의 수직 이동
+      const scale = 1; // scale은 perspective가 자동으로 처리
       const opacity = distance > 12 ? Math.max(0.2, 1 - (distance - 12) * 0.15) : 1;
 
       stones.push(
@@ -42,7 +44,7 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
           data-stage={i}
           className={`stone ${isSpecial ? 'special' : ''} ${isCurrent ? 'current' : ''} ${isPassed ? 'passed' : ''}`}
           style={{
-            transform: `translateY(${translateY}px) scale(${scale})`,
+            transform: `translateZ(${translateZ}px) translateY(${translateY}px) scale(${scale})`,
             opacity,
             cursor: isCurrent ? 'pointer' : 'default',
             zIndex: 100 - distance,

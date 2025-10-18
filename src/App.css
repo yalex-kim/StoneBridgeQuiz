@@ -69,6 +69,8 @@ body {
   padding-top: 70px;
   overflow-y: auto;
   overflow-x: hidden;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
 }
 
 .river-background {
@@ -77,6 +79,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 50px 0;
+  transform-style: preserve-3d;
 }
 
 .stones-path {
@@ -85,6 +88,7 @@ body {
   align-items: center;
   gap: 20px;
   position: relative;
+  transform-style: preserve-3d;
 }
 
 .stone {
