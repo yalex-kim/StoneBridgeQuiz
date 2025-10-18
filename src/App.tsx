@@ -21,6 +21,7 @@ function App() {
     showRewardChoice: false,
     showHeartConfirm: false,
     showVictoryScreen: false,
+    showWrongAnswer: false,
     totalHammers: 0,
   });
 
@@ -70,19 +71,27 @@ function App() {
         moveToNextStage();
       }
     } else {
-      if (gameState.hearts > 0) {
-        setGameState(prev => ({
-          ...prev,
-          showQuiz: false,
-          showHeartConfirm: true,
-        }));
-      } else {
-        setGameState(prev => ({
-          ...prev,
-          gameStatus: 'gameover',
-          showQuiz: false,
-        }));
-      }
+      setGameState(prev => ({
+        ...prev,
+        showQuiz: false,
+        showWrongAnswer: true,
+      }));
+    }
+  };
+
+  const handleWrongAnswerConfirm = () => {
+    if (gameState.hearts > 0) {
+      setGameState(prev => ({
+        ...prev,
+        showWrongAnswer: false,
+        showHeartConfirm: true,
+      }));
+    } else {
+      setGameState(prev => ({
+        ...prev,
+        gameStatus: 'gameover',
+        showWrongAnswer: false,
+      }));
     }
   };
 
@@ -225,11 +234,27 @@ function App() {
         </div>
       )}
 
+      {gameState.showWrongAnswer && currentQuiz && (
+        <div className="modal-overlay">
+          <div className="modal wrong-answer-modal">
+            <h2>❌ 오답입니다!</h2>
+            <div className="wrong-answer-content">
+              <p className="quiz-question">{currentQuiz.question}</p>
+              <p className="correct-answer">정답: <strong>{currentQuiz.answer}</strong></p>
+              {currentQuiz.explanation && (
+                <p className="explanation">{currentQuiz.explanation}</p>
+              )}
+            </div>
+            <button onClick={handleWrongAnswerConfirm} className="btn-confirm">확인</button>
+          </div>
+        </div>
+      )}
+
       {gameState.showHeartConfirm && (
         <div className="modal-overlay">
           <div className="modal">
-            <h2>오답입니다!</h2>
-            <p>하트를 사용하시겠습니까?</p>
+            <h2>하트를 사용하시겠습니까?</h2>
+            <p>남은 하트: {gameState.hearts}개</p>
             <div className="modal-buttons">
               <button onClick={() => handleHeartUse(true)} className="btn-yes">예</button>
               <button onClick={() => handleHeartUse(false)} className="btn-no">아니오</button>

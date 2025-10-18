@@ -3,1620 +3,1890 @@
     "category": "동물",
     "question": "고양이는 포유류이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "고양이는 새끼를 낳고 젖을 먹여 키우는 포유류입니다."
   },
   {
     "category": "동물",
     "question": "토끼는 초식동물이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "토끼는 풀, 채소, 과일 등 식물만 먹는 초식동물입니다."
   },
   {
     "category": "동물",
     "question": "펭귄은 날 수 있는 새다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "펭귄은 새이지만 날개가 짧아 날지 못하고, 대신 헤엄을 매우 잘 칩니다."
   },
   {
     "category": "동물",
     "question": "박쥐는 새의 종류이다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "박쥐는 새가 아니라 포유류입니다. 날개가 있지만 새끼를 낳고 젖을 먹입니다."
   },
   {
     "category": "식물",
     "question": "장미에는 가시가 있다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "장미는 줄기에 날카로운 가시가 있어 자신을 보호합니다."
   },
   {
     "category": "식물",
     "question": "선인장은 사막에서 자란다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "선인장은 물이 부족한 사막 환경에 적응하여 몸속에 물을 저장합니다."
   },
   {
     "category": "식물",
     "question": "벚꽃은 가을에 핀다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "벚꽃은 봄에 피는 꽃으로, 주로 3~4월에 아름다운 꽃을 볼 수 있습니다."
   },
   {
     "category": "식물",
     "question": "수박은 나무에서 자란다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "수박은 나무가 아닌 땅을 기는 덩굴식물이며, 열매가 땅 위에서 자랍니다."
   },
   {
     "category": "과학",
     "question": "지구는 둥글다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "지구는 둥근 구형의 행성이며, 이는 위성 사진으로도 확인할 수 있습니다."
   },
   {
     "category": "과학",
     "question": "태양은 별이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "태양은 스스로 빛과 열을 내는 항성으로, 우리에게 가장 가까운 별입니다."
   },
   {
     "category": "과학",
     "question": "달은 스스로 빛을 낸다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "달은 스스로 빛을 내지 못하고, 태양빛을 반사하여 밝게 보입니다."
   },
   {
     "category": "과학",
     "question": "물은 100도에서 끓는다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "1기압에서 물은 섭씨 100도가 되면 끓어서 수증기로 변합니다."
   },
   {
     "category": "산수",
     "question": "1 더하기 1은 2다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "1과 1을 더하면 2가 되는 기본적인 덧셈 원리입니다."
   },
   {
     "category": "산수",
     "question": "2 곱하기 3은 6이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "2를 3번 더하거나 3을 2번 더하면 6이 됩니다."
   },
   {
     "category": "산수",
     "question": "10은 짝수다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "10은 2로 나누어떨어지므로 짝수입니다."
   },
   {
     "category": "산수",
     "question": "원은 각이 있다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "원은 둥근 곡선으로 이루어져 있어 각이 없습니다."
   },
   {
     "category": "역사",
     "question": "세종대왕은 한글을 만들었다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "세종대왕은 백성들이 쉽게 사용할 수 있도록 한글을 창제하셨습니다."
   },
   {
     "category": "역사",
     "question": "광복절은 8월 15일이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "광복절은 1945년 8월 15일 일본으로부터 해방된 날을 기념하는 국경일입니다."
   },
   {
     "category": "역사",
     "question": "삼일절은 3월 1일이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "삼일절은 1919년 3월 1일 일어난 독립만세운동을 기념하는 날입니다."
   },
   {
     "category": "역사",
     "question": "훈민정음은 한자를 말한다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "훈민정음은 세종대왕이 만든 한글의 원래 이름입니다."
   },
   {
     "category": "나라",
     "question": "한국의 수도는 서울이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "서울은 대한민국의 수도이자 가장 큰 도시입니다."
   },
   {
     "category": "나라",
     "question": "일본의 수도는 도쿄다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "도쿄는 일본의 수도이며 정치, 경제의 중심지입니다."
   },
   {
     "category": "나라",
     "question": "미국의 수도는 뉴욕이다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "미국의 수도는 워싱턴 D.C.이며, 뉴욕은 미국에서 가장 큰 도시입니다."
   },
   {
     "category": "나라",
     "question": "에펠탑은 독일에 있다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "에펠탑은 프랑스 파리에 있는 유명한 철탑입니다."
   },
   {
     "category": "인물",
     "question": "손흥민은 축구선수다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "손흥민은 한국을 대표하는 세계적인 축구 선수입니다."
   },
   {
     "category": "인물",
     "question": "김연아는 피겨스케이팅 선수다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "김연아는 올림픽 금메달을 딴 세계적인 피겨스케이팅 선수입니다."
   },
   {
     "category": "인물",
     "question": "박지성은 야구선수다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "박지성은 축구 선수이며, 맨체스터 유나이티드에서 활약했습니다."
   },
   {
     "category": "인물",
     "question": "세종대왕은 조선의 왕이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "세종대왕은 조선시대 제4대 왕으로 한글을 창제하신 위대한 왕입니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 5살이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "짱구(신짱구)는 5살 유치원생으로 떡잎유치원에 다닙니다."
   },
   {
     "category": "짱구",
     "question": "짱구 엄마 이름은 봉미선이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "봉미선은 짱구의 엄마로, 쇼핑과 낮잠을 좋아합니다."
   },
   {
     "category": "짱구",
     "question": "흰둥이는 짱구네 강아지다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "흰둥이는 짱구네 가족이 키우는 하얀색 강아지입니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 액션가면을 좋아한다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "짱구는 액션가면을 매우 좋아하고, 액션가면 장난감과 만화를 즐깁니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티는 고양이 캐릭터다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "헬로키티는 산리오의 대표 캐릭터로 귀여운 하얀 고양이입니다."
   },
   {
     "category": "산리오",
     "question": "마이멜로디는 토끼 캐릭터다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "마이멜로디는 분홍색 두건을 쓴 귀여운 토끼 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "쿠로미는 하얀색이다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "쿠로미는 검은색과 분홍색이 섞인 토끼 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "시나모롤은 강아지 캐릭터다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "시나모롤은 귀가 날개처럼 생긴 하얀 강아지 캐릭터입니다."
   },
   {
     "category": "동물",
     "question": "돌고래는 물고기다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "돌고래는 물고기가 아니라 새끼를 낳고 젖을 먹이는 포유류입니다."
   },
   {
     "category": "동물",
     "question": "사자는 고양이과 동물이다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "사자는 고양이과에 속하며, 호랑이나 표범도 같은 고양이과입니다."
   },
   {
     "category": "식물",
     "question": "버섯은 식물이다.",
     "answer": "X",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "버섯은 식물이 아니라 곰팡이의 일종으로 균류에 속합니다."
   },
   {
     "category": "과학",
     "question": "빛은 소리보다 빠르다.",
     "answer": "O",
-    "difficulty": 1
+    "difficulty": 1,
+    "explanation": "빛의 속도는 소리보다 훨씬 빨라서 번개를 먼저 보고 천둥소리를 나중에 듣습니다."
   },
   {
     "category": "동물",
     "question": "기린의 목뼈는 사람보다 많다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "기린의 목뼈는 사람과 같은 7개이지만, 뼈의 크기가 매우 큽니다."
   },
   {
     "category": "동물",
     "question": "낙타는 혹에 물을 저장한다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "낙타의 혹에는 물이 아니라 지방이 저장되어 있어 에너지원으로 사용됩니다."
   },
   {
     "category": "동물",
     "question": "상어는 뼈가 있다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "상어는 뼈가 없고 연골로 이루어진 몸을 가지고 있습니다."
   },
   {
     "category": "동물",
     "question": "침팬지는 원숭이다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "침팬지는 원숭이가 아니라 유인원으로, 꼬리가 없고 사람과 가까운 동물입니다."
   },
   {
     "category": "동물",
     "question": "고래는 어류다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "고래는 물고기가 아니라 포유류로, 허파로 숨을 쉬고 새끼에게 젖을 먹입니다."
   },
   {
     "category": "동물",
     "question": "개구리는 평생 물속에서만 산다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "개구리는 양서류로 어릴 때는 물속에서, 다 자라면 물과 땅 모두에서 살 수 있습니다."
   },
   {
     "category": "식물",
     "question": "토마토는 채소다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "토마토는 씨앗이 있는 열매이므로 과일로 분류됩니다."
   },
   {
     "category": "식물",
     "question": "대나무는 나무다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "대나무는 나무가 아니라 풀의 일종인 목본성 풀입니다."
   },
   {
     "category": "식물",
     "question": "해바라기는 해를 따라 돈다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "해바라기는 어릴 때 태양의 방향을 따라 고개를 돌리는 향일성을 가지고 있습니다."
   },
   {
     "category": "식물",
     "question": "선인장은 물을 자주 줘야 한다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "선인장은 사막 식물이라 물을 적게 필요로 하며, 자주 주면 뿌리가 썩을 수 있습니다."
   },
   {
     "category": "과학",
     "question": "물은 H2O다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "물은 수소 원자 2개와 산소 원자 1개가 결합한 H2O 분자입니다."
   },
   {
     "category": "과학",
     "question": "자석의 N극과 S극은 서로 당긴다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "자석의 서로 다른 극(N극과 S극)은 끌어당기고, 같은 극끼리는 밀어냅니다."
   },
   {
     "category": "과학",
     "question": "중력은 지구에만 있다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "중력은 모든 물체가 가지고 있는 힘으로, 달이나 다른 행성에도 중력이 존재합니다."
   },
   {
     "category": "과학",
     "question": "소금물은 민물보다 빨리 어는다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "소금물은 어는점이 낮아져서 민물보다 더 낮은 온도에서 얼기 시작합니다."
   },
   {
     "category": "과학",
     "question": "소리는 진공에서도 전달된다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "소리는 공기나 물 같은 매질을 통해 전달되므로 진공에서는 전달되지 않습니다."
   },
   {
     "category": "과학",
     "question": "얼음은 물보다 가볍다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "얼음은 밀도가 물보다 낮아 물에 뜨게 됩니다."
   },
   {
     "category": "역사",
     "question": "이순신 장군은 거북선을 만들었다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "이순신 장군은 임진왜란 때 세계 최초의 철갑선인 거북선을 만들어 왜군을 물리쳤습니다."
   },
   {
     "category": "역사",
     "question": "고구려, 백제, 신라를 삼국시대라 한다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "고구려, 백제, 신라 세 나라가 경쟁하던 시기를 삼국시대라고 부릅니다."
   },
   {
     "category": "역사",
     "question": "한글 창제일은 10월 9일이다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "한글날은 10월 9일로, 세종대왕이 훈민정음을 반포한 날을 기념합니다."
   },
   {
     "category": "역사",
     "question": "고려는 조선보다 먼저 세워졌다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "고려(918년)는 조선(1392년)보다 약 500년 먼저 건국되었습니다."
   },
   {
     "category": "산수",
     "question": "0 곱하기 100은 100이다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "어떤 수에 0을 곱하면 항상 0이 됩니다."
   },
   {
     "category": "산수",
     "question": "1은 소수다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "소수는 1보다 큰 자연수 중 1과 자기 자신으로만 나누어지는 수이므로 1은 소수가 아닙니다."
   },
   {
     "category": "산수",
     "question": "5 곱하기 5는 20이다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "5 곱하기 5는 25입니다."
   },
   {
     "category": "산수",
     "question": "삼각형은 세 개의 변이 있다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "삼각형은 세 개의 변과 세 개의 꼭짓점으로 이루어진 도형입니다."
   },
   {
     "category": "나라",
     "question": "중국의 수도는 베이징이다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "베이징(북경)은 중국의 수도이자 정치, 문화의 중심지입니다."
   },
   {
     "category": "나라",
     "question": "프랑스의 수도는 파리다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "파리는 프랑스의 수도이며 에펠탑이 있는 아름다운 도시입니다."
   },
   {
     "category": "나라",
     "question": "피라미드는 이집트에 있다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "피라미드는 이집트의 유명한 고대 건축물로 파라오의 무덤입니다."
   },
   {
     "category": "나라",
     "question": "만리장성은 중국에 있다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "만리장성은 중국에 있는 세계에서 가장 긴 성벽입니다."
   },
   {
     "category": "인물",
     "question": "아인슈타인은 과학자다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "아인슈타인은 상대성 이론을 발견한 위대한 물리학자입니다."
   },
   {
     "category": "인물",
     "question": "베토벤은 음악가다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "베토벤은 독일의 유명한 작곡가로 교향곡 9번 등 많은 명곡을 남겼습니다."
   },
   {
     "category": "인물",
     "question": "유관순은 독립운동가다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "유관순 열사는 3·1 운동에 참여한 독립운동가로 17세의 나이에 순국하셨습니다."
   },
   {
     "category": "인물",
     "question": "레오나르도 다 빈치는 모나리자를 그렸다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "레오나르도 다 빈치는 르네상스 시대의 천재 예술가로 '모나리자'를 그렸습니다."
   },
   {
     "category": "짱구",
     "question": "짱구의 본명은 신짱구다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "짱구의 본명은 일본어로 신노스케이며, 신짱구는 한국어 이름입니다."
   },
   {
     "category": "짱구",
     "question": "짱구의 여동생 이름은 신짱아다.",
     "answer": "O",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "신짱아(히마와리)는 짱구의 귀여운 여동생으로 0세입니다."
   },
   {
     "category": "짱구",
     "question": "맹구는 똑똑하다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "맹구는 순수하고 착하지만 코를 자주 흘리고 조금 둔한 캐릭터입니다."
   },
   {
     "category": "짱구",
     "question": "원장선생님은 여자다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "떡잎유치원 원장선생님은 남자이며, 대머리에 큰 코가 특징입니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티의 리본은 왼쪽 귀에 있다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "헬로키티의 빨간 리본은 오른쪽 귀에 달려 있습니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티는 입이 있다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "헬로키티는 디자인상 입이 그려져 있지 않은 것이 특징입니다."
   },
   {
     "category": "산리오",
     "question": "포차코는 개구리다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "포차코는 개구리가 아니라 강아지 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "마이멜로디는 빨간 두건을 쓴다.",
     "answer": "X",
-    "difficulty": 2
+    "difficulty": 2,
+    "explanation": "마이멜로디는 분홍색 두건을 쓰고 있습니다."
   },
   {
     "category": "동물",
     "question": "코끼리는 세상에서 가장 큰 육상 동물이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "코끼리는 육지에 사는 동물 중 가장 크고 무거운 동물입니다."
   },
   {
     "category": "동물",
     "question": "판다는 대나무를 먹는다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "판다는 주로 대나무를 먹고 사는 초식동물로, 하루에 많은 양의 대나무를 먹습니다."
   },
   {
     "category": "동물",
     "question": "햄스터는 설치류다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "햄스터는 쥐와 같은 설치류에 속하며, 앞니가 계속 자랍니다."
   },
   {
     "category": "동물",
     "question": "거북이는 파충류다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "거북이는 비늘이 있고 알을 낳는 파충류입니다."
   },
   {
     "category": "동물",
     "question": "닭은 포유류다.",
     "answer": "X",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "닭은 포유류가 아니라 날개와 부리가 있는 조류입니다."
   },
   {
     "category": "동물",
     "question": "캥거루는 호주에 산다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "캥거루는 호주에 서식하는 대표적인 유대류 동물입니다."
   },
   {
     "category": "동물",
     "question": "뱀은 다리가 있다.",
     "answer": "X",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "뱀은 다리가 없이 몸을 구불거리며 이동하는 파충류입니다."
   },
   {
     "category": "동물",
     "question": "부엉이는 밤에 활동한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "부엉이는 밤에 사냥을 하는 야행성 새입니다."
   },
   {
     "category": "동물",
     "question": "곰은 겨울잠을 잔다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "곰은 추운 겨울에 동굴에서 겨울잠을 자며 에너지를 절약합니다."
   },
   {
     "category": "동물",
     "question": "벌은 곤충이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "벌은 다리가 6개인 곤충으로, 꿀을 만들고 꽃가루를 옮깁니다."
   },
   {
     "category": "식물",
     "question": "나무는 산소를 만든다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "나무는 광합성을 통해 이산화탄소를 흡수하고 산소를 만들어냅니다."
   },
   {
     "category": "식물",
     "question": "민들레 씨앗은 바람에 날린다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "민들레 씨앗은 솜털이 있어 바람을 타고 멀리 날아가 퍼집니다."
   },
   {
     "category": "식물",
     "question": "소나무는 잎이 사계절 푸르다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "소나무는 상록수로 겨울에도 잎이 떨어지지 않고 푸릅니다."
   },
   {
     "category": "식물",
     "question": "튤립은 네덜란드가 유명하다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "네덜란드는 튤립 재배와 수출로 유명한 나라입니다."
   },
   {
     "category": "식물",
     "question": "딸기는 과일이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "딸기는 씨앗이 겉에 있는 독특한 구조의 과일입니다."
   },
   {
     "category": "식물",
     "question": "무궁화는 한국의 국화다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "무궁화는 대한민국의 국화로 나라꽃입니다."
   },
   {
     "category": "식물",
     "question": "감자는 땅속에서 자란다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "감자는 뿌리가 아닌 땅속 줄기가 굵어진 덩이줄기입니다."
   },
   {
     "category": "식물",
     "question": "단풍나무는 가을에 빨갛게 변한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "단풍나무는 가을이 되면 잎이 아름답게 빨갛게 물듭니다."
   },
   {
     "category": "식물",
     "question": "코코넛은 야자수 열매다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "코코넛은 열대 지방의 야자수에서 열리는 큰 열매입니다."
   },
   {
     "category": "식물",
     "question": "사과나무는 봄에 꽃이 핀다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "사과나무는 봄에 하얀 꽃이 피고, 여름에 열매가 맺힙니다."
   },
   {
     "category": "과학",
     "question": "공기 중에는 산소가 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "공기는 질소와 산소 등으로 이루어져 있으며, 우리는 산소를 마시며 살아갑니다."
   },
   {
     "category": "과학",
     "question": "금속은 전기를 통한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "금속은 전기가 잘 통하는 성질이 있어 전선 등에 사용됩니다."
   },
   {
     "category": "과학",
     "question": "태양계에는 8개의 행성이 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "태양계는 수성, 금성, 지구, 화성, 목성, 토성, 천왕성, 해왕성 8개 행성으로 이루어져 있습니다."
   },
   {
     "category": "과학",
     "question": "무지개는 7가지 색이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "무지개는 빨, 주, 노, 초, 파, 남, 보 7가지 색으로 이루어져 있습니다."
   },
   {
     "category": "과학",
     "question": "번개는 소리보다 빛이 먼저 보인다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "빛이 소리보다 훨씬 빠르기 때문에 번개를 먼저 보고 천둥소리를 나중에 듣습니다."
   },
   {
     "category": "과학",
     "question": "금은 금속이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "금은 귀한 금속으로 전기가 잘 통하고 녹슬지 않습니다."
   },
   {
     "category": "과학",
     "question": "식물은 광합성을 한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "식물은 햇빛을 이용해 이산화탄소와 물로 양분을 만드는 광합성을 합니다."
   },
   {
     "category": "과학",
     "question": "다이아몬드는 탄소로 이루어져 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "다이아몬드는 탄소 원자가 단단하게 결합하여 만들어진 가장 단단한 광물입니다."
   },
   {
     "category": "과학",
     "question": "남극은 북극보다 춥다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "남극은 대륙으로 이루어져 있어 북극보다 평균 기온이 더 낮습니다."
   },
   {
     "category": "과학",
     "question": "달의 중력은 지구보다 약하다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "달의 중력은 지구의 약 6분의 1 정도로 약합니다."
   },
   {
     "category": "역사",
     "question": "한국은 6.25 전쟁을 겪었다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "1950년 6월 25일 북한의 남침으로 시작된 전쟁을 6.25 전쟁이라고 합니다."
   },
   {
     "category": "역사",
     "question": "김구 선생은 독립운동가다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "김구 선생은 대한민국 임시정부를 이끈 독립운동가입니다."
   },
   {
     "category": "역사",
     "question": "안중근 의사는 이토 히로부미를 저격했다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "안중근 의사는 1909년 하얼빈에서 한국 침략의 원흉인 이토 히로부미를 저격하셨습니다."
   },
   {
     "category": "역사",
     "question": "경복궁은 조선시대 궁궐이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "경복궁은 조선시대 첫 번째로 지어진 법궁입니다."
   },
   {
     "category": "역사",
     "question": "석굴암은 통일신라시대 유물이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "석굴암은 통일신라시대에 만들어진 아름다운 석굴 사원입니다."
   },
   {
     "category": "역사",
     "question": "백제의 마지막 수도는 부여였다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "백제는 사비(현재 부여)를 마지막 수도로 했다가 멸망했습니다."
   },
   {
     "category": "역사",
     "question": "김유신은 신라의 장군이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "김유신은 삼국통일을 이끈 신라의 위대한 장군입니다."
   },
   {
     "category": "역사",
     "question": "태극기는 한국의 국기다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "태극기는 대한민국의 국기로 태극과 사괘가 그려져 있습니다."
   },
   {
     "category": "역사",
     "question": "을사조약은 일제강점기와 관련있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "을사조약은 1905년 일본이 한국의 외교권을 빼앗은 불평등 조약입니다."
   },
   {
     "category": "역사",
     "question": "광개토대왕은 고구려 왕이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "광개토대왕은 고구려의 영토를 크게 넓힌 위대한 왕입니다."
   },
   {
     "category": "산수",
     "question": "5 빼기 3은 2다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "5에서 3을 빼면 2가 됩니다."
   },
   {
     "category": "산수",
     "question": "10 나누기 2는 5다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "10을 2로 나누면 5가 됩니다."
   },
   {
     "category": "산수",
     "question": "사각형은 네 개의 각이 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "사각형은 네 개의 변과 네 개의 각으로 이루어진 도형입니다."
   },
   {
     "category": "산수",
     "question": "7은 홀수다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "7은 2로 나누어떨어지지 않는 홀수입니다."
   },
   {
     "category": "산수",
     "question": "100은 3자리 수다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "100은 백의 자리, 십의 자리, 일의 자리로 이루어진 3자리 수입니다."
   },
   {
     "category": "산수",
     "question": "시계의 긴 바늘은 분을 나타낸다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "시계의 긴 바늘은 분을, 짧은 바늘은 시를 나타냅니다."
   },
   {
     "category": "산수",
     "question": "1시간은 60분이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "1시간은 60분으로 이루어져 있습니다."
   },
   {
     "category": "산수",
     "question": "1주일은 7일이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "1주일은 월요일부터 일요일까지 7일입니다."
   },
   {
     "category": "산수",
     "question": "정삼각형은 세 변의 길이가 모두 같다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "정삼각형은 세 변의 길이가 같고 세 각도 모두 같은 삼각형입니다."
   },
   {
     "category": "산수",
     "question": "1년은 12개월이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "1년은 1월부터 12월까지 12개의 달로 이루어져 있습니다."
   },
   {
     "category": "나라",
     "question": "영국의 수도는 런던이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "런던은 영국의 수도이자 역사와 문화의 중심지입니다."
   },
   {
     "category": "나라",
     "question": "이탈리아의 수도는 로마다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "로마는 이탈리아의 수도이며 고대 로마 제국의 중심지였습니다."
   },
   {
     "category": "나라",
     "question": "태극기는 한국의 국기다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "태극기는 대한민국의 국기로 태극과 사괘가 그려져 있습니다."
   },
   {
     "category": "나라",
     "question": "캥거루는 호주에 많다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "캥거루는 호주를 대표하는 동물로 호주에만 서식합니다."
   },
   {
     "category": "나라",
     "question": "자유의 여신상은 미국에 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "자유의 여신상은 미국 뉴욕에 있는 유명한 상징물입니다."
   },
   {
     "category": "나라",
     "question": "스페인은 유럽에 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "스페인은 유럽 남서부 이베리아 반도에 위치한 나라입니다."
   },
   {
     "category": "나라",
     "question": "타지마할은 인도에 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "타지마할은 인도에 있는 아름다운 대리석 건축물입니다."
   },
   {
     "category": "나라",
     "question": "사우디아라비아는 중동에 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "사우디아라비아는 아시아 서쪽 중동 지역에 있는 나라입니다."
   },
   {
     "category": "나라",
     "question": "러시아는 세계에서 가장 큰 나라다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "러시아는 세계에서 영토가 가장 넓은 나라입니다."
   },
   {
     "category": "나라",
     "question": "브라질은 남아메리카에 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "브라질은 남아메리카 대륙에서 가장 큰 나라입니다."
   },
   {
     "category": "인물",
     "question": "피카소는 화가다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "피카소는 스페인의 유명한 화가로 입체파 미술을 창시했습니다."
   },
   {
     "category": "인물",
     "question": "이이는 율곡 선생이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "이이(율곡)는 조선시대의 위대한 유학자이자 정치가입니다."
   },
   {
     "category": "인물",
     "question": "모차르트는 작곡가다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "모차르트는 어린 나이에 천재성을 보인 오스트리아의 작곡가입니다."
   },
   {
     "category": "인물",
     "question": "뉴턴은 만유인력을 발견했다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "뉴턴은 사과가 떨어지는 것을 보고 만유인력의 법칙을 발견한 과학자입니다."
   },
   {
     "category": "인물",
     "question": "나폴레옹은 프랑스 황제였다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "나폴레옹은 프랑스의 황제로 유럽을 정복하려 했던 군사 지도자입니다."
   },
   {
     "category": "인물",
     "question": "에디슨은 전구를 발명했다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "에디슨은 백열전구를 비롯해 많은 발명품을 만든 발명가입니다."
   },
   {
     "category": "인물",
     "question": "마리 퀴리는 노벨상을 받았다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "마리 퀴리는 방사능을 연구하여 노벨상을 두 번 받은 과학자입니다."
   },
   {
     "category": "인물",
     "question": "라이트 형제는 비행기를 만들었다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "라이트 형제는 1903년 세계 최초로 동력 비행에 성공했습니다."
   },
   {
     "category": "인물",
     "question": "스티브 잡스는 애플을 창업했다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "스티브 잡스는 애플 컴퓨터를 창업하여 아이폰과 맥을 만든 기업가입니다."
   },
   {
     "category": "인물",
     "question": "마더 테레사는 노벨 평화상을 받았다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "마더 테레사는 가난한 사람들을 도와 노벨 평화상을 받은 수녀입니다."
   },
   {
     "category": "짱구",
     "question": "짱구 아빠 이름은 신형만이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "신형만은 짱구의 아빠로 회사원입니다."
   },
   {
     "category": "짱구",
     "question": "유리는 짱구의 친구다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "유리는 짱구의 유치원 친구로 착하고 얌전한 여자아이입니다."
   },
   {
     "category": "짱구",
     "question": "훈이는 안경을 썼다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "훈이는 짱구의 친구로 동그란 안경을 쓴 것이 특징입니다."
   },
   {
     "category": "짱구",
     "question": "철수는 부자집 아들이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "철수는 잘사는 집 아들로 때때로 자랑을 하는 캐릭터입니다."
   },
   {
     "category": "짱구",
     "question": "나나는 짱구네 반 선생님이다.",
     "answer": "X",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "나나는 짱구네 반 선생님이 아니라 또 다른 캐릭터입니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 유치원에 다닌다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "짱구는 5살로 떡잎유치원에 다니는 유치원생입니다."
   },
   {
     "category": "짱구",
     "question": "짱구네 유치원은 떡잎유치원이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "떡잎유치원은 짱구와 친구들이 다니는 유치원입니다."
   },
   {
     "category": "짱구",
     "question": "신형만은 회사원이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "신형만은 회사에 다니는 평범한 직장인 아빠입니다."
   },
   {
     "category": "짱구",
     "question": "봉미선은 쇼핑을 좋아한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "봉미선은 쇼핑과 특가 세일을 매우 좋아합니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 초코비를 좋아한다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "짱구는 초코비라는 초콜릿 과자를 매우 좋아합니다."
   },
   {
     "category": "산리오",
     "question": "폼폼푸린은 골든 리트리버다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "폼폼푸린은 갈색의 귀여운 골든 리트리버 강아지 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "산리오는 일본 회사다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "산리오는 헬로키티를 만든 일본의 캐릭터 회사입니다."
   },
   {
     "category": "산리오",
     "question": "배드바츠마루는 펭귄이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "배드바츠마루는 장난기 많은 펭귄 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "키키&라라는 쌍둥이 별 요정이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "키키&라라(리틀트윈스타즈)는 쌍둥이 남매 별 요정 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "구데타마는 계란 캐릭터다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "구데타마는 귀찮아하는 성격의 계란 노른자 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "시나모롤의 귀는 날개처럼 생겼다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "시나모롤은 긴 귀로 하늘을 날 수 있는 강아지입니다."
   },
   {
     "category": "산리오",
     "question": "쿠로미는 마이멜로디의 라이벌이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "쿠로미는 마이멜로디와 경쟁하는 악당 역할의 토끼 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티의 본명은 키티 화이트다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "헬로키티의 정식 이름은 키티 화이트(Kitty White)입니다."
   },
   {
     "category": "산리오",
     "question": "폼폼푸린은 갈색이다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "폼폼푸린은 갈색 털을 가진 강아지로 갈색 베레모를 쓰고 있습니다."
   },
   {
     "category": "산리오",
     "question": "시나모롤은 하늘을 날 수 있다.",
     "answer": "O",
-    "difficulty": 3
+    "difficulty": 3,
+    "explanation": "시나모롤은 큰 귀를 날개처럼 펄럭여 하늘을 날 수 있습니다."
   },
   {
     "category": "동물",
     "question": "문어의 다리는 8개다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "문어는 8개의 다리(발)를 가진 두족류 동물입니다."
   },
   {
     "category": "동물",
     "question": "타조는 세상에서 가장 큰 새다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "타조는 세계에서 가장 큰 새이지만 날지는 못합니다."
   },
   {
     "category": "동물",
     "question": "북극곰의 피부는 검은색이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "북극곰의 털은 하얗지만 피부는 검은색으로 체온 유지에 도움이 됩니다."
   },
   {
     "category": "동물",
     "question": "코알라는 곰의 종류다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "코알라는 곰이 아니라 유대류 동물로, 새끼주머니가 있습니다."
   },
   {
     "category": "동물",
     "question": "악어는 양서류다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "악어는 양서류가 아니라 비늘이 있는 파충류입니다."
   },
   {
     "category": "동물",
     "question": "플라밍고는 원래 분홍색으로 태어난다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "플라밍고는 회색으로 태어나며, 새우 등을 먹어 분홍색이 됩니다."
   },
   {
     "category": "동물",
     "question": "벌새는 뒤로 날 수 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "벌새는 유일하게 뒤로 날 수 있는 새이며 공중에 정지할 수도 있습니다."
   },
   {
     "category": "동물",
     "question": "코끼리는 헤엄을 칠 수 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "코끼리는 몸집이 크지만 헤엄을 잘 치고 물속을 걸을 수 있습니다."
   },
   {
     "category": "동물",
     "question": "캥거루는 뒤로 걸을 수 없다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "캥거루는 다리 구조상 뒤로 걷지 못하고 앞으로만 깡충깡충 뜁니다."
   },
   {
     "category": "동물",
     "question": "하마는 땀이 빨간색이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "하마는 빨간색 분비물을 내어 피부를 보호하고 자외선을 막습니다."
   },
   {
     "category": "식물",
     "question": "대나무는 하루에 1미터씩 자랄 수 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "대나무는 성장 속도가 매우 빨라 하루에 최대 1미터까지 자랄 수 있습니다."
   },
   {
     "category": "식물",
     "question": "바나나는 나무에서 자란다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "바나나는 나무가 아닌 큰 풀(초본식물)에서 자랍니다."
   },
   {
     "category": "식물",
     "question": "딸기는 견과류의 일종이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "딸기는 견과류가 아니라 장미과 식물의 열매입니다."
   },
   {
     "category": "식물",
     "question": "선인장도 꽃을 피운다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "선인장도 다른 식물처럼 아름다운 꽃을 피웁니다."
   },
   {
     "category": "식물",
     "question": "나무는 밤에도 산소를 만든다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "나무는 낮에만 광합성을 하므로 밤에는 산소를 만들지 않습니다."
   },
   {
     "category": "식물",
     "question": "수세미는 식물이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "수세미는 박과의 식물로, 열매를 말려 세척 도구로 사용합니다."
   },
   {
     "category": "식물",
     "question": "땅콩은 땅 위에서 자란다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "땅콩은 꽃이 지면 땅속으로 들어가 열매가 맺히는 독특한 식물입니다."
   },
   {
     "category": "식물",
     "question": "벚꽃나무는 일년 내내 벚꽃이 핀다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "벚꽃나무는 봄에만 잠깐 꽃을 피우고 나머지 계절에는 꽃이 없습니다."
   },
   {
     "category": "식물",
     "question": "무화과는 꽃이 없다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "무화과는 열매 안에 작은 꽃이 숨어 있어 보이지 않을 뿐입니다."
   },
   {
     "category": "식물",
     "question": "선인장은 뿌리가 얕다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "선인장은 빗물을 빨리 흡수하기 위해 넓고 얕은 뿌리를 가지고 있습니다."
   },
   {
     "category": "과학",
     "question": "번개는 태양보다 뜨겁다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "번개는 온도가 약 3만도로 태양 표면(약 6000도)보다 훨씬 뜨겁습니다."
   },
   {
     "category": "과학",
     "question": "금성은 역방향으로 자전한다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "금성은 다른 행성과 달리 시계 방향으로 자전하는 특이한 행성입니다."
   },
   {
     "category": "과학",
     "question": "수은은 상온에서 액체다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "수은은 금속이지만 상온에서 액체 상태인 특별한 금속입니다."
   },
   {
     "category": "과학",
     "question": "빛의 속도는 초속 30만 km다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "빛은 1초에 약 30만 킬로미터를 이동하는 우주에서 가장 빠른 속도입니다."
   },
   {
     "category": "과학",
     "question": "DNA는 네 가지 염기로 이루어져 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "DNA는 A, T, G, C 네 가지 염기의 조합으로 유전 정보를 저장합니다."
   },
   {
     "category": "과학",
     "question": "물은 섭씨 4도일 때 밀도가 가장 크다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "물은 4도일 때 가장 무거워서 밀도가 최대가 됩니다."
   },
   {
     "category": "과학",
     "question": "전자는 원자핵보다 크다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "전자는 원자핵보다 훨씬 작고 가벼운 입자입니다."
   },
   {
     "category": "과학",
     "question": "공기의 대부분은 질소로 이루어져 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "공기의 약 78%는 질소이고 산소는 약 21%입니다."
   },
   {
     "category": "과학",
     "question": "에베레스트는 매년 조금씩 낮아진다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "에베레스트는 판의 이동으로 매년 조금씩 높아지고 있습니다."
   },
   {
     "category": "과학",
     "question": "달의 뒷면을 지구에서 볼 수 없다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "달은 항상 같은 면만 지구를 향하므로 뒷면은 지구에서 볼 수 없습니다."
   },
   {
     "category": "역사",
     "question": "불국사는 신라 시대 건축물이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "불국사는 통일신라시대에 지어진 아름다운 불교 사찰입니다."
   },
   {
     "category": "역사",
     "question": "동학농민운동은 조선시대 사건이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "동학농민운동은 1894년 조선시대 말기에 일어난 농민 운동입니다."
   },
   {
     "category": "역사",
     "question": "신사임당은 율곡 이이의 어머니다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "신사임당은 조선시대의 예술가이자 율곡 이이 선생의 어머니입니다."
   },
   {
     "category": "역사",
     "question": "팔만대장경은 고려시대에 만들어졌다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "팔만대장경은 고려시대에 몽골 침입을 물리치기 위해 만든 대장경입니다."
   },
   {
     "category": "역사",
     "question": "조선의 건국자는 이성계다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "이성계(태조)는 1392년 조선을 건국한 첫 번째 왕입니다."
   },
   {
     "category": "역사",
     "question": "신라는 삼국을 통일했다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "신라는 676년 백제와 고구려를 통합하여 삼국을 통일했습니다."
   },
   {
     "category": "역사",
     "question": "거북선은 임진왜란 때 만들어졌다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "거북선은 1592년 임진왜란 때 이순신 장군이 만든 전함입니다."
   },
   {
     "category": "역사",
     "question": "한성은 조선시대 수도의 이름이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "한성은 조선시대 서울의 옛 이름입니다."
   },
   {
     "category": "역사",
     "question": "첨성대는 백제의 건축물이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "첨성대는 백제가 아니라 신라시대에 만든 천문 관측대입니다."
   },
   {
     "category": "역사",
     "question": "훈민정음은 세종 28년에 반포되었다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "훈민정음은 1446년 세종 28년에 반포되었습니다."
   },
   {
     "category": "산수",
     "question": "500원 동전 두 개는 1000원이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "500원 동전 2개를 합하면 1000원이 됩니다."
   },
   {
     "category": "산수",
     "question": "직사각형의 네 각은 모두 직각이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "직사각형은 네 개의 각이 모두 90도 직각인 사각형입니다."
   },
   {
     "category": "산수",
     "question": "12 곱하기 12는 144다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "12 곱하기 12는 144입니다."
   },
   {
     "category": "산수",
     "question": "9의 약수는 1, 3, 9다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "9를 나누어떨어지게 하는 수는 1, 3, 9입니다."
   },
   {
     "category": "산수",
     "question": "원주율은 3.14다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "원주율(파이)은 약 3.14로, 원의 둘레와 지름의 비율입니다."
   },
   {
     "category": "산수",
     "question": "사다리꼴은 평행사변형이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "사다리꼴은 한 쌍의 변만 평행하지만, 평행사변형은 두 쌍이 평행해야 합니다."
   },
   {
     "category": "산수",
     "question": "마름모의 네 변은 모두 같다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "마름모는 네 변의 길이가 모두 같은 사각형입니다."
   },
   {
     "category": "산수",
     "question": "0으로 나누면 무한대가 된다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "0으로 나누는 것은 수학적으로 정의되지 않아 계산할 수 없습니다."
   },
   {
     "category": "산수",
     "question": "2는 유일한 짝수 소수다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "2는 짝수이면서도 1과 2로만 나누어지는 유일한 짝수 소수입니다."
   },
   {
     "category": "산수",
     "question": "정육면체는 6개의 면이 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "정육면체는 6개의 정사각형 면으로 이루어진 입체도형입니다."
   },
   {
     "category": "나라",
     "question": "캐나다는 미국의 북쪽에 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "캐나다는 미국의 북쪽에 위치한 세계에서 두 번째로 큰 나라입니다."
   },
   {
     "category": "나라",
     "question": "김치는 한국 음식이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "김치는 배추를 발효시킨 한국의 대표 음식입니다."
   },
   {
     "category": "나라",
     "question": "스위스는 영세중립국이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "스위스는 전쟁에 참여하지 않는 영구 중립국입니다."
   },
   {
     "category": "나라",
     "question": "그리스의 수도는 아테네다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "아테네는 고대 문명의 발상지이자 그리스의 수도입니다."
   },
   {
     "category": "나라",
     "question": "아프리카는 나라 이름이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "아프리카는 대륙의 이름이지 나라 이름이 아닙니다."
   },
   {
     "category": "나라",
     "question": "북한과 남한의 국경선은 38선이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "현재 남북한의 군사분계선은 휴전선이며, 38선은 원래의 분할선입니다."
   },
   {
     "category": "나라",
     "question": "바티칸은 세계에서 가장 작은 나라다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "바티칸은 로마 안에 있는 세계에서 가장 작은 독립 국가입니다."
   },
   {
     "category": "나라",
     "question": "호주의 수도는 시드니다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "호주의 수도는 시드니가 아니라 캔버라입니다."
   },
   {
     "category": "나라",
     "question": "네덜란드는 풍차가 유명하다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "네덜란드는 풍차와 튤립으로 유명한 유럽의 나라입니다."
   },
   {
     "category": "나라",
     "question": "뉴질랜드는 오세아니아에 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "뉴질랜드는 호주 동쪽 오세아니아 지역에 위치한 섬나라입니다."
   },
   {
     "category": "인물",
     "question": "빌 게이츠는 마이크로소프트를 창업했다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "빌 게이츠는 마이크로소프트를 창업한 프로그래머이자 기업가입니다."
   },
   {
     "category": "인물",
     "question": "장영실은 조선시대 과학자다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "장영실은 조선시대에 측우기와 자격루 등을 발명한 과학자입니다."
   },
   {
     "category": "인물",
     "question": "헬렌 켈러는 시각과 청각 장애인이었다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "헬렌 켈러는 보지도 듣지도 못했지만 훌륭한 교육가가 되었습니다."
   },
   {
     "category": "인물",
     "question": "간디는 인도의 독립운동가다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "간디는 비폭력 저항 운동으로 인도의 독립을 이끈 지도자입니다."
   },
   {
     "category": "인물",
     "question": "링컨은 미국의 초대 대통령이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "링컨은 16대 대통령이며, 초대 대통령은 조지 워싱턴입니다."
   },
   {
     "category": "인물",
     "question": "셰익스피어는 영국의 극작가다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "셰익스피어는 햄릿, 로미오와 줄리엣을 쓴 영국의 위대한 극작가입니다."
   },
   {
     "category": "인물",
     "question": "반 고흐는 생전에 그림을 많이 팔았다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "반 고흐는 생전에 그림이 거의 팔리지 않았지만 사후에 유명해졌습니다."
   },
   {
     "category": "인물",
     "question": "갈릴레오는 지동설을 주장했다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "갈릴레오는 지구가 태양 주위를 돈다는 지동설을 주장한 과학자입니다."
   },
   {
     "category": "인물",
     "question": "이황은 퇴계 선생이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "이황(퇴계)는 조선시대의 위대한 유학자이자 교육자입니다."
   },
   {
     "category": "인물",
     "question": "넬슨 만델라는 남아공 대통령이었다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "넬슨 만델라는 인종 차별에 맞서 싸워 남아프리카공화국 대통령이 되었습니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 일본 애니메이션이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "짱구는 일본에서 만들어진 인기 애니메이션입니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 엉덩이 춤을 춘다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "짱구는 엉덩이를 흔드는 특이한 춤을 좋아합니다."
   },
   {
     "category": "짱구",
     "question": "짱구네 강아지 이름은 하얀둥이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "짱구네 강아지 이름은 흰둥이이며, 하얀둥이가 아닙니다."
   },
   {
     "category": "짱구",
     "question": "짱구 여동생 이름은 신짱아가 아닌 신짱이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "짱구 여동생의 이름은 신짱아가 맞습니다."
   },
   {
     "category": "짱구",
     "question": "짱구의 본명은 신노스케다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "짱구의 일본어 본명은 노하라 신노스케입니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티는 영국 출신 설정이다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "헬로키티는 영국 런던 교외에 사는 설정의 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "아그레시브 레츠코는 판다다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "아그레시브 레츠코는 판다가 아니라 레서판다(소판다) 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "산리오 캐릭터는 모두 동물이다.",
     "answer": "X",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "산리오에는 구데타마(계란) 같은 동물이 아닌 캐릭터도 있습니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티에게 여동생이 있다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "헬로키티에게는 미미(Mimmy)라는 쌍둥이 여동생이 있습니다."
   },
   {
     "category": "산리오",
     "question": "구데타마는 귀찮음을 좋아하는 캐릭터다.",
     "answer": "O",
-    "difficulty": 4
+    "difficulty": 4,
+    "explanation": "구데타마는 무기력하고 귀찮아하는 성격이 특징인 캐릭터입니다."
   },
   {
     "category": "동물",
     "question": "말은 초식동물이다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "말은 풀과 곡식을 먹는 초식동물입니다."
   },
   {
     "category": "동물",
     "question": "오리는 물갈퀴가 있다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "오리는 발가락 사이에 물갈퀴가 있어 헤엄을 잘 칩니다."
   },
   {
     "category": "식물",
     "question": "은행나무는 가을에 노랗게 변한다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "은행나무는 가을이 되면 잎이 아름답게 노랗게 물듭니다."
   },
   {
     "category": "나라",
     "question": "BTS는 한국 아이돌 그룹이다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "BTS(방탄소년단)는 세계적으로 인기 있는 한국의 아이돌 그룹입니다."
   },
   {
     "category": "짱구",
     "question": "떡잎유치원 버스는 노란색이다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "떡잎유치원 버스는 분홍색입니다."
   },
   {
     "category": "짱구",
     "question": "훈이의 엄마는 다정하다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "훈이의 엄마는 엄하고 무서운 것으로 유명합니다."
   },
   {
     "category": "짱구",
     "question": "맹구는 주먹밥을 좋아한다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "맹구는 주먹밥과 간식을 매우 좋아하는 캐릭터입니다."
   },
   {
     "category": "짱구",
     "question": "액션가면의 라이벌은 하이그레 마왕이다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "하이그레 마왕은 액션가면과 싸우는 악당 캐릭터입니다."
   },
   {
     "category": "짱구",
     "question": "짱구는 낮잠을 좋아한다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "짱구는 낮잠을 싫어하고 노는 것을 더 좋아합니다."
   },
   {
     "category": "산리오",
     "question": "시나모롤은 카페 점원 설정이다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "시나모롤은 카페 시나몬에 살고 있는 강아지로 점원은 아닙니다."
   },
   {
     "category": "산리오",
     "question": "쿠로미는 악당 설정이다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "쿠로미는 장난꾸러기 악당 역할을 하는 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "폼폼푸린은 푸딩을 좋아한다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "폼폼푸린은 푸딩을 가장 좋아하는 음식으로 하는 캐릭터입니다."
   },
   {
     "category": "산리오",
     "question": "키키는 쌍둥이 중 언니다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "키키는 남자아이이며, 언니는 라라입니다."
   },
   {
     "category": "산리오",
     "question": "헬로키티의 여동생 이름은 미미다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "헬로키티의 쌍둥이 여동생 이름은 미미(Mimmy)입니다."
   },
   {
     "category": "동물",
     "question": "오징어의 심장은 3개다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "오징어는 독특하게도 심장이 3개 있는 동물입니다."
   },
   {
     "category": "동물",
     "question": "고슴도치는 설치류다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "고슴도치는 설치류가 아니라 고슴도치목에 속하는 동물입니다."
   },
   {
     "category": "과학",
     "question": "인체에서 가장 큰 장기는 간이다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "인체에서 가장 큰 장기는 간이 아니라 피부입니다."
   },
   {
     "category": "역사",
     "question": "조선의 공식 국교는 불교였다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "조선은 유교를 국교로 삼았으며, 불교는 고려의 국교였습니다."
   },
   {
     "category": "동물",
     "question": "나비는 다리가 4개다.",
     "answer": "X",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "나비는 곤충으로 다리가 6개입니다."
   },
   {
     "category": "과학",
     "question": "사람의 DNA는 바나나와 50% 이상 같다.",
     "answer": "O",
-    "difficulty": 5
+    "difficulty": 5,
+    "explanation": "사람과 바나나의 DNA는 약 50~60% 정도 유사합니다."
   }
 ]

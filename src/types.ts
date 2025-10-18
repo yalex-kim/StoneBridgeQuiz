@@ -3,6 +3,7 @@ export interface Quiz {
   question: string;
   answer: 'O' | 'X';
   difficulty: number;
+  explanation?: string;
 }
 
 export interface GameState {
@@ -16,6 +17,7 @@ export interface GameState {
   showRewardChoice: boolean;
   showHeartConfirm: boolean;
   showVictoryScreen: boolean;
+  showWrongAnswer: boolean;
   totalHammers: number;
 }
 

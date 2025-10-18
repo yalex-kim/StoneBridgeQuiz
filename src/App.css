@@ -399,6 +399,66 @@ body {
   margin-top: 15px;
 }
 
+/* Wrong Answer Modal */
+.wrong-answer-modal h2 {
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.wrong-answer-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.wrong-answer-content .quiz-question {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.correct-answer {
+  font-size: 16px;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.correct-answer strong {
+  font-size: 20px;
+  color: #2ecc71;
+}
+
+.explanation {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.btn-confirm {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #3498db, #2980b9);
+  color: white;
+  margin-top: 10px;
+}
+
+.btn-confirm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(52, 152, 219, 0.4);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .stone {
