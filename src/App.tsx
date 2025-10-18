@@ -12,7 +12,7 @@ const REQUIRED_HAMMERS = 10;
 function App() {
   const [gameState, setGameState] = useState<GameState>({
     currentStage: 1,
-    hearts: 1,
+    hearts: 3,
     hammers: 0,
     selectedQuizzes: [],
     gameStatus: 'playing',
@@ -159,7 +159,7 @@ function App() {
     setGameState(prev => ({
       ...prev,
       currentStage: 1,
-      hearts: 1,
+      hearts: 3,
       selectedQuizzes: selected,
       gameStatus: 'playing',
       showQuiz: false,
