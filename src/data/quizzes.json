@@ -1,0 +1,927 @@
+[
+  {
+    "category": "동물",
+    "question": "고양이는 포유류이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "강아지는 육식동물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "토끼는 초식동물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "코끼리는 세상에서 가장 큰 육상 동물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "펭귄은 날 수 있는 새다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "박쥐는 새의 종류이다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "돌고래는 물고기다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "기린의 목뼈는 사람보다 많다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "사자는 고양이과 동물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "판다는 대나무를 먹는다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "개구리는 평생 물속에서만 산다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "햄스터는 설치류다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "낙타는 혹에 물을 저장한다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "거북이는 파충류다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "닭은 포유류다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "상어는 뼈가 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "캥거루는 호주에 산다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "말은 초식동물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "벌은 곤충이다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "뱀은 다리가 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "오리는 물갈퀴가 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "침팬지는 원숭이다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "부엉이는 밤에 활동한다.",
+    "answer": "O"
+  },
+  {
+    "category": "동물",
+    "question": "고래는 어류다.",
+    "answer": "X"
+  },
+  {
+    "category": "동물",
+    "question": "곰은 겨울잠을 잔다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "장미에는 가시가 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "선인장은 사막에서 자란다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "나무는 산소를 만든다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "해바라기는 해를 따라 돈다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "버섯은 식물이다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "토마토는 채소다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "민들레 씨앗은 바람에 날린다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "소나무는 잎이 사계절 푸르다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "대나무는 나무다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "튤립은 네덜란드가 유명하다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "벚꽃은 가을에 핀다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "딸기는 과일이다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "무궁화는 한국의 국화다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "선인장은 물을 자주 줘야 한다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "감자는 땅속에서 자란다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "단풍나무는 가을에 빨갛게 변한다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "코코넛은 야자수 열매다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "수박은 나무에서 자란다.",
+    "answer": "X"
+  },
+  {
+    "category": "식물",
+    "question": "사과나무는 봄에 꽃이 핀다.",
+    "answer": "O"
+  },
+  {
+    "category": "식물",
+    "question": "은행나무는 가을에 노랗게 변한다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "세종대왕은 한글을 만들었다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "이순신 장군은 거북선을 만들었다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "광복절은 8월 15일이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "한국은 6.25 전쟁을 겪었다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "삼일절은 3월 1일이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "김구 선생은 독립운동가다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "안중근 의사는 이토 히로부미를 저격했다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "고구려, 백제, 신라를 삼국시대라 한다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "한글 창제일은 10월 9일이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "경복궁은 조선시대 궁궐이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "석굴암은 통일신라시대 유물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "훈민정음은 한자를 말한다.",
+    "answer": "X"
+  },
+  {
+    "category": "역사",
+    "question": "백제의 마지막 수도는 부여였다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "김유신은 신라의 장군이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "고려는 조선보다 먼저 세워졌다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "태극기는 한국의 국기다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "을사조약은 일제강점기와 관련있다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "광개토대왕은 고구려 왕이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "불국사는 신라 시대 건축물이다.",
+    "answer": "O"
+  },
+  {
+    "category": "역사",
+    "question": "동학농민운동은 조선시대 사건이다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "지구는 둥글다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "물은 H2O다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "태양은 별이다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "자석의 N극과 S극은 서로 당긴다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "물은 100도에서 끓는다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "빛은 소리보다 빠르다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "달은 스스로 빛을 낸다.",
+    "answer": "X"
+  },
+  {
+    "category": "과학",
+    "question": "공기 중에는 산소가 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "얼음은 물보다 가볍다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "금속은 전기를 통한다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "중력은 지구에만 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "과학",
+    "question": "소금물은 민물보다 빨리 어는다.",
+    "answer": "X"
+  },
+  {
+    "category": "과학",
+    "question": "태양계에는 8개의 행성이 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "무지개는 7가지 색이다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "번개는 소리보다 빛이 먼저 보인다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "소리는 진공에서도 전달된다.",
+    "answer": "X"
+  },
+  {
+    "category": "과학",
+    "question": "금은 금속이다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "식물은 광합성을 한다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "다이아몬드는 탄소로 이루어져 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "과학",
+    "question": "남극은 북극보다 춥다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "헬로키티는 고양이 캐릭터다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "마이멜로디는 토끼 캐릭터다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "쿠로미는 하얀색이다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "시나모롤은 강아지 캐릭터다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "폼폼푸린은 골든 리트리버다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "헬로키티의 리본은 왼쪽 귀에 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "산리오는 일본 회사다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "배드바츠마루는 펭귄이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "키키&라라는 쌍둥이 별 요정이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "헬로키티는 입이 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "포차코는 개구리다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "구데타마는 계란 캐릭터다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "시나모롤의 귀는 날개처럼 생겼다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "마이멜로디는 빨간 두건을 쓴다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "쿠로미는 마이멜로디의 라이벌이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "아그레시브 레츠코는 판다다.",
+    "answer": "X"
+  },
+  {
+    "category": "산리오",
+    "question": "헬로키티의 본명은 키티 화이트다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "폼폼푸린은 갈색이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "시나모롤은 하늘을 날 수 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "산리오",
+    "question": "헬로키티는 영국 출신 설정이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구의 본명은 신짱구다.",
+    "answer": "X"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 5살이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구 엄마 이름은 봉미선이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구 아빠 이름은 신형만이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구의 여동생 이름은 신짱아다.",
+    "answer": "X"
+  },
+  {
+    "category": "짱구",
+    "question": "흰둥이는 짱구네 강아지다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "유리는 짱구의 친구다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "훈이는 안경을 썼다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 액션가면을 좋아한다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "맹구는 똑똑하다.",
+    "answer": "X"
+  },
+  {
+    "category": "짱구",
+    "question": "철수는 부자집 아들이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "나나는 짱구네 반 선생님이다.",
+    "answer": "X"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 유치원에 다닌다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구네 유치원은 떡잎유치원이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "신형만은 회사원이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "봉미선은 쇼핑을 좋아한다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 초코비를 좋아한다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 일본 애니메이션이다.",
+    "answer": "O"
+  },
+  {
+    "category": "짱구",
+    "question": "원장선생님은 여자다.",
+    "answer": "X"
+  },
+  {
+    "category": "짱구",
+    "question": "짱구는 엉덩이 춤을 춘다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "1 더하기 1은 2다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "2 곱하기 3은 6이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "5 빼기 3은 2다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "10 나누기 2는 5다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "0 곱하기 100은 100이다.",
+    "answer": "X"
+  },
+  {
+    "category": "산수",
+    "question": "삼각형은 세 개의 변이 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "사각형은 네 개의 각이 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "원은 각이 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "산수",
+    "question": "10은 짝수다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "7은 홀수다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "100은 3자리 수다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "1은 소수다.",
+    "answer": "X"
+  },
+  {
+    "category": "산수",
+    "question": "시계의 긴 바늘은 분을 나타낸다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "1시간은 60분이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "1주일은 7일이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "정삼각형은 세 변의 길이가 모두 같다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "1년은 12개월이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "500원 동전 두 개는 1000원이다.",
+    "answer": "O"
+  },
+  {
+    "category": "산수",
+    "question": "5 곱하기 5는 20이다.",
+    "answer": "X"
+  },
+  {
+    "category": "산수",
+    "question": "직사각형의 네 각은 모두 직각이다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "BTS는 한국 아이돌 그룹이다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "아인슈타인은 과학자다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "피카소는 화가다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "베토벤은 음악가다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "손흥민은 축구선수다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "김연아는 피겨스케이팅 선수다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "박지성은 야구선수다.",
+    "answer": "X"
+  },
+  {
+    "category": "인물",
+    "question": "세종대왕은 조선의 왕이다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "유관순은 독립운동가다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "이이는 율곡 선생이다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "모차르트는 작곡가다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "뉴턴은 만유인력을 발견했다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "나폴레옹은 프랑스 황제였다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "레오나르도 다 빈치는 모나리자를 그렸다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "에디슨은 전구를 발명했다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "마리 퀴리는 노벨상을 받았다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "라이트 형제는 비행기를 만들었다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "스티브 잡스는 애플을 창업했다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "빌 게이츠는 마이크로소프트를 창업했다.",
+    "answer": "O"
+  },
+  {
+    "category": "인물",
+    "question": "마더 테레사는 노벨 평화상을 받았다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "한국의 수도는 서울이다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "일본의 수도는 도쿄다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "중국의 수도는 베이징이다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "미국의 수도는 뉴욕이다.",
+    "answer": "X"
+  },
+  {
+    "category": "나라",
+    "question": "프랑스의 수도는 파리다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "영국의 수도는 런던이다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "이탈리아의 수도는 로마다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "태극기는 한국의 국기다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "캥거루는 호주에 많다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "피라미드는 이집트에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "에펠탑은 독일에 있다.",
+    "answer": "X"
+  },
+  {
+    "category": "나라",
+    "question": "만리장성은 중국에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "자유의 여신상은 미국에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "스페인은 유럽에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "타지마할은 인도에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "사우디아라비아는 중동에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "러시아는 세계에서 가장 큰 나라다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "브라질은 남아메리카에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "캐나다는 미국의 북쪽에 있다.",
+    "answer": "O"
+  },
+  {
+    "category": "나라",
+    "question": "김치는 한국 음식이다.",
+    "answer": "O"
+  }
+]
