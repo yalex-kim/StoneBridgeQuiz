@@ -440,6 +440,25 @@ body {
   border-top: 1px solid #ddd;
 }
 
+.heart-deduction {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #e74c3c;
+}
+
+.heart-message {
+  font-size: 18px;
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.remaining-hearts {
+  font-size: 16px;
+  color: #c0392b;
+  margin: 5px 0;
+}
+
 .btn-confirm {
   padding: 15px 40px;
   border: none;

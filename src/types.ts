@@ -15,7 +15,6 @@ export interface GameState {
   showQuiz: boolean;
   showSpecialStage: boolean;
   showRewardChoice: boolean;
-  showHeartConfirm: boolean;
   showVictoryScreen: boolean;
   showWrongAnswer: boolean;
   showHouseAnimation: boolean;

@@ -20,7 +20,6 @@ function App() {
     showQuiz: false,
     showSpecialStage: false,
     showRewardChoice: false,
-    showHeartConfirm: false,
     showVictoryScreen: false,
     showWrongAnswer: false,
     showHouseAnimation: false,
@@ -82,18 +81,22 @@ function App() {
   };
 
   const handleWrongAnswerConfirm = () => {
-    if (gameState.hearts > 0) {
+    const newHearts = gameState.hearts - 1;
+
+    if (newHearts <= 0) {
       setGameState(prev => ({
         ...prev,
+        hearts: 0,
+        gameStatus: 'gameover',
         showWrongAnswer: false,
-        showHeartConfirm: true,
       }));
     } else {
       setGameState(prev => ({
         ...prev,
-        gameStatus: 'gameover',
+        hearts: newHearts,
         showWrongAnswer: false,
       }));
+      moveToNextStage();
     }
   };
 
@@ -115,23 +118,6 @@ function App() {
       }));
     }
     moveToNextStage();
-  };
-
-  const handleHeartUse = (useHeart: boolean) => {
-    if (useHeart) {
-      setGameState(prev => ({
-        ...prev,
-        hearts: prev.hearts - 1,
-        showHeartConfirm: false,
-      }));
-      moveToNextStage();
-    } else {
-      setGameState(prev => ({
-        ...prev,
-        gameStatus: 'gameover',
-        showHeartConfirm: false,
-      }));
-    }
   };
 
   const moveToNextStage = () => {
@@ -184,7 +170,6 @@ function App() {
       showQuiz: false,
       showSpecialStage: false,
       showRewardChoice: false,
-      showHeartConfirm: false,
       showVictoryScreen: false,
       showHouseAnimation: false,
       hammers: prev.totalHammers,
@@ -255,21 +240,12 @@ function App() {
               {currentQuiz.explanation && (
                 <p className="explanation">{currentQuiz.explanation}</p>
               )}
+              <div className="heart-deduction">
+                <p className="heart-message">💔 하트 -1</p>
+                <p className="remaining-hearts">남은 하트: {gameState.hearts - 1}개</p>
+              </div>
             </div>
             <button onClick={handleWrongAnswerConfirm} className="btn-confirm">확인</button>
-          </div>
-        </div>
-      )}
-
-      {gameState.showHeartConfirm && (
-        <div className="modal-overlay">
-          <div className="modal">
-            <h2>하트를 사용하시겠습니까?</h2>
-            <p>남은 하트: {gameState.hearts}개</p>
-            <div className="modal-buttons">
-              <button onClick={() => handleHeartUse(true)} className="btn-yes">예</button>
-              <button onClick={() => handleHeartUse(false)} className="btn-no">아니오</button>
-            </div>
           </div>
         </div>
       )}
