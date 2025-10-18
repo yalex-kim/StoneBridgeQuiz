@@ -31,12 +31,12 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
       const isCurrent = i === currentStage;
       const isPassed = i < currentStage;
 
-      // 원근감: 위 방향으로 뻗어나가는 효과
-      // 간격을 매우 좁게 하여 화면 절반에 모두 표시
-      const translateZ = -distance * 30; // 매우 좁은 간격
-      const translateY = -distance * 8; // 위 방향으로 이동
+      // 원근감: 지평선에서 다가오는 효과
+      // 현재 돌은 아래(화면 앞), 다음 돌들은 위쪽(지평선)에서 다가옴
+      const translateZ = -distance * 25; // 좁은 간격
+      const translateY = -distance * 12; // 위로 올라감 (지평선)
       const scale = 1; // scale은 perspective가 자동으로 처리
-      const opacity = distance > 40 ? Math.max(0.3, 1 - (distance - 40) * 0.05) : 1;
+      const opacity = distance > 35 ? Math.max(0.2, 1 - (distance - 35) * 0.08) : 1;
 
       stones.push(
         <div

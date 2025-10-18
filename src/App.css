@@ -68,11 +68,12 @@ body {
   height: 100%;
   padding-top: 70px;
   overflow: hidden;
-  perspective: 500px;
-  perspective-origin: 50% 80%;
+  perspective: 400px;
+  perspective-origin: 50% 30%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .river-background {
