@@ -6,9 +6,9 @@ import QuizModal from './components/QuizModal';
 import HouseAnimation from './components/HouseAnimation';
 import './App.css';
 
-const TOTAL_STAGES = 1; // 테스트용: 1번 문제만 풀어도 승리
-const SPECIAL_STAGES = [10, 20, 30, 40, 50, 60, 70, 80, 90];
-const REQUIRED_HAMMERS = 10;
+const TOTAL_STAGES = 50;
+const SPECIAL_STAGES = [10, 20, 30, 40, 50];
+const REQUIRED_HAMMERS = 5;
 
 function App() {
   const [gameState, setGameState] = useState<GameState>({
@@ -28,16 +28,15 @@ function App() {
   });
 
   useEffect(() => {
-    // 테스트용: 망치 10개 자동 지급
-    const totalHammers = 10;
-    localStorage.setItem('totalHammers', totalHammers.toString());
+    const savedHammers = localStorage.getItem('totalHammers');
+    const totalHammers = savedHammers ? parseInt(savedHammers) : 0;
 
-    // 난이도별로 퀴즈 선택 (20문제씩)
+    // 난이도별로 퀴즈 선택 (10문제씩, 난이도 1-5)
     const selected: Quiz[] = [];
     for (let difficulty = 1; difficulty <= 5; difficulty++) {
       const quizzesOfDifficulty = (quizzesData as Quiz[]).filter(q => q.difficulty === difficulty);
       const shuffled = [...quizzesOfDifficulty].sort(() => Math.random() - 0.5);
-      selected.push(...shuffled.slice(0, 20));
+      selected.push(...shuffled.slice(0, 10));
     }
 
     setGameState(prev => ({
@@ -168,12 +167,12 @@ function App() {
   };
 
   const handleRestart = () => {
-    // 난이도별로 퀴즈 선택 (20문제씩)
+    // 난이도별로 퀴즈 선택 (10문제씩, 난이도 1-5)
     const selected: Quiz[] = [];
     for (let difficulty = 1; difficulty <= 5; difficulty++) {
       const quizzesOfDifficulty = (quizzesData as Quiz[]).filter(q => q.difficulty === difficulty);
       const shuffled = [...quizzesOfDifficulty].sort(() => Math.random() - 0.5);
-      selected.push(...shuffled.slice(0, 20));
+      selected.push(...shuffled.slice(0, 10));
     }
 
     setGameState(prev => ({
@@ -187,6 +186,7 @@ function App() {
       showRewardChoice: false,
       showHeartConfirm: false,
       showVictoryScreen: false,
+      showHouseAnimation: false,
       hammers: prev.totalHammers,
     }));
   };
