@@ -32,9 +32,9 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
       const isPassed = i < currentStage;
 
       // 원근감: 위 방향으로 뻗어나가는 효과
-      // 멀리 있을수록 Z축 깊이가 크고 위로 올라감
-      const translateZ = -distance * 80; // 간격 좁힘 (200 → 80)
-      const translateY = -distance * 15; // 위 방향으로 이동 (음수)
+      // 간격을 매우 좁게 하여 화면 절반에 모두 표시
+      const translateZ = -distance * 30; // 매우 좁은 간격
+      const translateY = -distance * 8; // 위 방향으로 이동
       const scale = 1; // scale은 perspective가 자동으로 처리
       const opacity = distance > 40 ? Math.max(0.3, 1 - (distance - 40) * 0.05) : 1;
 
