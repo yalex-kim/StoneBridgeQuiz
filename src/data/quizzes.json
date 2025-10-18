@@ -1594,5 +1594,29 @@
     "question": "고슴도치는 설치류다.",
     "answer": "X",
     "difficulty": 5
+  },
+  {
+    "category": "과학",
+    "question": "인체에서 가장 큰 장기는 간이다.",
+    "answer": "X",
+    "difficulty": 5
+  },
+  {
+    "category": "역사",
+    "question": "조선의 공식 국교는 불교였다.",
+    "answer": "X",
+    "difficulty": 5
+  },
+  {
+    "category": "동물",
+    "question": "나비는 다리가 4개다.",
+    "answer": "X",
+    "difficulty": 5
+  },
+  {
+    "category": "과학",
+    "question": "사람의 DNA는 바나나와 50% 이상 같다.",
+    "answer": "O",
+    "difficulty": 5
   }
 ]
