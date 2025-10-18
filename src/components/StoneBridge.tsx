@@ -21,7 +21,7 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
 
   const renderStones = () => {
     const stones = [];
-    const visibleRange = 15;
+    const visibleRange = 50; // 모든 돌 표시
     const startStage = Math.max(1, currentStage - 2);
     const endStage = Math.min(totalStages, currentStage + visibleRange);
 
@@ -31,12 +31,12 @@ const StoneBridge = ({ currentStage, totalStages, specialStages, onStoneClick }:
       const isCurrent = i === currentStage;
       const isPassed = i < currentStage;
 
-      // 원근감: 전면에서 다가오는 효과 (translateZ 사용)
-      // 멀리 있을수록 Z축 깊이가 크고, 가까울수록 앞으로 나옴
-      const translateZ = -distance * 200; // 뒤로 갈수록 음수값이 커짐
-      const translateY = distance * 30; // 약간의 수직 이동
+      // 원근감: 위 방향으로 뻗어나가는 효과
+      // 멀리 있을수록 Z축 깊이가 크고 위로 올라감
+      const translateZ = -distance * 80; // 간격 좁힘 (200 → 80)
+      const translateY = -distance * 15; // 위 방향으로 이동 (음수)
       const scale = 1; // scale은 perspective가 자동으로 처리
-      const opacity = distance > 12 ? Math.max(0.2, 1 - (distance - 12) * 0.15) : 1;
+      const opacity = distance > 40 ? Math.max(0.3, 1 - (distance - 40) * 0.05) : 1;
 
       stones.push(
         <div
